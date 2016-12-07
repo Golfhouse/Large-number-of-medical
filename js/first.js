@@ -12,4 +12,7 @@
 		$("#box_1,#box_2,#box_3").click(function(){
 			$("#menu").css("display","none");
 		});
+		document.body.addEventListener("touchmove",function(event){
+			event.preventDefault();
+		});
 	};
